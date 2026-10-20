@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuildPro | Civil Construction</title>
+  <meta name="description" content="Professional house construction, renovation and civil engineering services in Karachi.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #243044; }
+    header { background: #17283f; color: white; padding: 18px 7%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    header h2 { color: #f5b335; }
+    nav a { color: white; text-decoration: none; margin-left: 15px; }
+    .hero { padding: 85px 7%; color: white; background: linear-gradient(120deg, #17283f, #3d6177); }
+    .hero h1 { font-size: clamp(32px, 5vw, 52px); max-width: 650px; line-height: 1.15; }
+    .hero p { margin: 18px 0; max-width: 550px; }
+    .btn { display: inline-block; background: #f5b335; color: #17283f; padding: 12px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; }
+    section { padding: 55px 7%; }
+    .heading { text-align: center; margin-bottom: 28px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 20px; }
+    .card { padding: 24px; background: #f4f6f8; border-radius: 9px; border-bottom: 4px solid #f5b335; }
+    .card h3 { margin-bottom: 10px; }
+    .price { font-size: 21px; font-weight: bold; color: #b77900; margin-top: 12px; }
+    .about { background: #f4f6f8; }
+    .contact { background: #17283f; color: white; text-align: center; }
+    .contact p { margin: 10px 0; }
+    footer { padding: 18px; text-align: center; background: #101c2c; color: white; }
+    @media (max-width: 600px) { header { padding: 18px 5%; } nav a { margin: 0 8px 0 0; } .hero { padding: 60px 5%; } section { padding: 42px 5%; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>BuildPro</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero" id="home">
+      <h1>Building Your Dreams, Brick by Brick</h1>
+      <p>Reliable civil construction, house building and renovation services for your next project.</p>
+      <a class="btn" href="#contact">Get a Quote</a>
+    </div>
+
+    <section id="services">
+      <h2 class="heading">Our Construction Services</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>🏠 House Construction</h3>
+          <p>Planning and construction for residential projects.</p>
+          <p class="price">Price: Contact Us</p>
+        </article>
+        <article class="card">
+          <h3>🧱 Grey Structure</h3>
+          <p>Foundation, brickwork, roof and structural work.</p>
+          <p class="price">Price: Contact Us</p>
+        </article>
+        <article class="card">
+          <h3>🛠️ Renovation</h3>
+          <p>Home repairs, upgrades and renovation projects.</p>
+          <p class="price">Price: Contact Us</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="heading">About Our Company</h2>
+      <p style="max-width:750px;margin:auto;text-align:center">
+        We aim to deliver quality civil work, dependable service and clear project communication.
+        Contact us to discuss your construction requirements.
+      </p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Let's Build Together</h2>
+      <p>Phone: YOUR-PHONE-NUMBER</p>
+      <p>Email: YOUR-EMAIL@example.com</p>
+      <p>Location: Karachi, Pakistan</p>
+      <a class="btn" href="https://wa.me/92XXXXXXXXXX">Contact on WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 BuildPro Civil Construction. All rights reserved.</p>
+  </footer>
+</body>
+</html>
